@@ -10,6 +10,7 @@ const PeringkatDiv = ({ load }) => {
       <>
         {data.map((team) => (
           <motion.div
+            key={team.team.id}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -26,7 +27,6 @@ const PeringkatDiv = ({ load }) => {
                 fontWeight: "bold",
                 justifyContent: "center",
               }}
-              key={team.team.id}
             >
               <Col span={2}>{team.stats[8].value}</Col>
               <Divider type="vertical" style={{ margin: 0, height: "50px" }} />
