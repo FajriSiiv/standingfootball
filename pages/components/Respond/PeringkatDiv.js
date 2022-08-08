@@ -1,10 +1,8 @@
 import { Col, Divider, Image, Row } from "antd";
 import { AnimatePresence, motion } from "framer-motion";
-import React from "react";
 
-const PeringkatDiv = ({ load }) => {
-  const data = load.data.standings;
-  console.log(data);
+const PeringkatDiv = (props) => {
+  const data = props.load.data.standings;
   return (
     <AnimatePresence>
       <>
@@ -40,6 +38,7 @@ const PeringkatDiv = ({ load }) => {
                 }}
               >
                 <Image
+                  alt="img"
                   width={40}
                   height={40}
                   src={`${team.team.logos[0].href}`}
