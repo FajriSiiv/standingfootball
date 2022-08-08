@@ -26,6 +26,7 @@ const PeringkatDiv = ({ load }) => {
                 fontWeight: "bold",
                 justifyContent: "center",
               }}
+              key={team.team.id}
             >
               <Col span={2}>{team.stats[8].value}</Col>
               <Divider type="vertical" style={{ margin: 0, height: "50px" }} />
