@@ -4,7 +4,7 @@ import React from "react";
 import UseFetch from "../../Hooks/UseFetch";
 import { AnimatePresence, motion } from "framer-motion";
 
-const LaLiga = ({ datas }) => {
+const Laliga = ({ datas }) => {
   const { data, loading, error } = UseFetch(datas);
 
   return (
@@ -229,7 +229,7 @@ export async function getStaticProps() {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
   const res = await fetch(
-    "https://api-football-standings.azharimm.site/leagues/ita.1/standings?season=2022&sort=asc"
+    "https://api-football-standings.azharimm.site/leagues/esp.1/standings?season=2022&sort=asc"
   );
   const datas = await res.json();
 
@@ -243,4 +243,4 @@ export async function getStaticProps() {
   };
 }
 
-export default LaLiga;
+export default Laliga;
