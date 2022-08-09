@@ -1,6 +1,6 @@
 import { Header } from "antd/lib/layout/layout";
 import React from "react";
-import DropdownJS from "../pages/components/Dropdown/Dropdown";
+import DropdownJS from "../components/Dropdown/Dropdown";
 
 const HeaderFill = () => {
   return (

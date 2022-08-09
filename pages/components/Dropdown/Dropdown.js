@@ -7,7 +7,7 @@ const menu = (
       {
         key: "1",
         label: (
-          <Link rel="noopener noreferrer" href="../peringkat/EPL">
+          <Link rel="noopener noreferrer" href="../Peringkat/EPL">
             English Premier League
           </Link>
         ),
@@ -18,7 +18,7 @@ const menu = (
       {
         key: "2",
         label: (
-          <Link rel="noopener noreferrer" href="../peringkat/Laliga">
+          <Link rel="noopener noreferrer" href="../Peringkat/Laliga">
             LaLiga
           </Link>
         ),
@@ -29,7 +29,7 @@ const menu = (
       {
         key: "3",
         label: (
-          <Link rel="noopener noreferrer" href="../peringkat/italia">
+          <Link rel="noopener noreferrer" href="../Peringkat/Italia">
             Seria A
           </Link>
         ),

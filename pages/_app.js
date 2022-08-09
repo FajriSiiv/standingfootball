@@ -1,12 +1,12 @@
-import Layout from "../Layout/Layout";
 import "../styles/globals.css";
 import "antd/dist/antd.css";
+import LayoutFill from "./Layout/Layout";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
+    <LayoutFill>
       <Component {...pageProps} />
-    </Layout>
+    </LayoutFill>
   );
 }
 
