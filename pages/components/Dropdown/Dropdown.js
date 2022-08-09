@@ -29,7 +29,7 @@ const menu = (
       {
         key: "3",
         label: (
-          <Link rel="noopener noreferrer" href="../peringkat/Italia">
+          <Link rel="noopener noreferrer" href="../peringkat/italia">
             Seria A
           </Link>
         ),
